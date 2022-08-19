@@ -27,3 +27,4 @@ const firebaseConfig = {
   
     return await createUserWithEmailAndPassword(auth, email, password);
   };
+  
