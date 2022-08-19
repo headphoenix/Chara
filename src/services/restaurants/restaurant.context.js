@@ -5,7 +5,7 @@ import { restaurantsRequest, restaurantsTransform } from './restaurants.service'
 
 export const RestaurantsContext = createContext();
 
-export const RestaurntsContextProvider = ({ children }) => {
+export const RestaurantsContextProvider = ({ children }) => {
     const [restaurants, setRestaurants] = useState([]);
     const [isLoading, setIsLoading] = useState(false)
     const [error, setError] = useState(null);
